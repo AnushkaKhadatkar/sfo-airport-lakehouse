@@ -154,7 +154,7 @@ This shows how document stores can **complement**, not replace, analytical wareh
 
 ## 📄 Project Report
 
-📎 **[Project Report](report/Project_Report.pdf)
+📎 [Project Report](report/Project_Report.pdf)
 
 
 ---
