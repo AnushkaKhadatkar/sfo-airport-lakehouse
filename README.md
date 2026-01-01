@@ -68,6 +68,8 @@ Raw Layer → Core Layer → Marts Layer
 
 All facts share conformed dimensions to ensure consistent analytics.
 
+star_schema.png
+
 ---
 
 ## 📊 Analytics Marts
@@ -141,61 +143,6 @@ This shows how document stores can **complement**, not replace, analytical wareh
 
 ---
 
-## 📁 Repository Structure
-
-sfo-airport-lakehouse-analytics/
-│
-├── data/
-│   ├── raw/
-│   │   ├── Air_Traffic_Passenger_Statistics.csv
-│   │   └── Air_Traffic_Landings_Statistics.csv
-│   │
-│   └── README.md
-│
-├── notebooks/
-│   ├── etl_csv_to_bigquery.ipynb
-│   ├── analytics_airline_mix.ipynb
-│   ├── analytics_terminal_load.ipynb
-│   ├── analytics_passengers_per_landing.ipynb
-│   └── analytics_fleet_mix.ipynb
-│
-├── sql/
-│   ├── core_dimensions/
-│   │   ├── dim_date.sql
-│   │   ├── dim_airline.sql
-│   │   ├── dim_geo.sql
-│   │   ├── dim_terminal.sql
-│   │   ├── dim_aircraft.sql
-│   │   └── dim_activity.sql
-│   │
-│   ├── core_facts/
-│   │   ├── fact_passenger_monthly.sql
-│   │   └── fact_landings_monthly.sql
-│   │
-│   └── marts/
-│       ├── mart_airline_mix.sql
-│       ├── mart_terminal_load.sql
-│       ├── mart_passengers_per_landing.sql
-│       └── mart_fleet_mix.sql
-│
-├── nosql/
-│   ├── couchdb_setup.md
-│   ├── passengers_to_couchdb.py
-│   └── couchdb_views.json
-│
-├── diagrams/
-│   ├── star_schema.png
-│   └── pipeline_architecture.png
-│
-├── report/
-│   └── Airport_Operations_Lakehouse_SFO.pdf
-│
-├── README.md
-├── .gitignore
-└── LICENSE
-
-
----
 
 ## 📄 Project Report
 
