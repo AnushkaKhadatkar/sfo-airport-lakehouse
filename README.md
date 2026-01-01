@@ -68,7 +68,7 @@ Raw Layer → Core Layer → Marts Layer
 
 All facts share conformed dimensions to ensure consistent analytics.
 
-star_schema.png
+'diagrams/Star_Schema1.png'
 
 ---
 
