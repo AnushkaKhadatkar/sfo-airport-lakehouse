@@ -75,7 +75,7 @@ All facts share conformed dimensions to ensure consistent analytics.
 The warehouse is modeled using a **star schema** with conformed dimensions shared across passenger and landing facts.  
 This design enables consistent slicing of KPIs by airline, geography, terminal, aircraft, and time.
 
-![Star Schema Diagram](diagrams/star_schema.png)
+![Star Schema Diagram](diagrams/Star_Schema1.png)
 
 
 ---
