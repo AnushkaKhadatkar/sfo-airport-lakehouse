@@ -155,7 +155,7 @@ This shows how document stores can **complement**, not replace, analytical wareh
 ## 📄 Project Report
 
 📎 **Full academic report:**  
-`report/Group5_Project_Report (3).pdf`
+report/Group5_Project_Report (3).pdf
 
 ---
 
